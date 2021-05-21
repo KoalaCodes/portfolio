@@ -1,0 +1,174 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Comfortaa', cursive;
+}
+
+.container-fluid{
+    padding: 3% 15% 5%;
+}
+
+/* nav bar */
+.contact-logo {
+   height: 100px;
+}
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Comfortaa', cursive;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 1.125rem;
+    
+}
+
+#link{
+    font-size: 1.2rem;
+   color: rgb(220, 20, 60);
+}
+
+#link:hover{
+    color: rgb(77, 46, 252);
+}
+
+#logo{
+    color: rgb(39, 78, 248);
+}
+
+/* title */
+
+.title-image {
+    height: auto;
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 600;
+    color: rgb(80, 79, 79);
+}
+.title-p {
+    margin-top: 8rem;
+    color: coral;
+}
+/* skills */
+
+#skills {
+    position: relative;
+    padding: 5% 10%; 
+    text-align: center; 
+    background-image: url("https://www.transparenttextures.com/patterns/always-grey.png");
+}
+
+ul {
+    list-style: none;
+}
+
+.skills-ul {
+    margin-top: 1rem;
+    padding-left: 0px;
+}
+
+.feature-box{
+    background-color: white;
+    text-align: center;
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+    padding: 5%
+}
+
+.icon {
+   color: rgb(235, 101, 23);
+   margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: darkcyan;
+}
+
+h3 {
+    
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+
+/* project */
+
+
+#projects{
+   
+    text-align: center;
+    overflow: hidden;
+}
+
+.project-card {
+    margin-left: 5%;
+    margin-right: 5%;
+   margin-bottom: 5%;
+   border-radius: 10px;
+   transition: all 150ms ease-in-out;
+}
+
+.project-card:hover {
+   transform: scale(1.05);
+}
+
+/* cta */
+
+#cta {
+    margin: 1rem;
+}
+#cta-h1 {
+    
+   color: rgb(252, 252, 252);
+}
+
+
+/* footer */
+
+#footer {
+    padding: 7%;
+    text-align: center;
+}
+
+.footer-p {
+    color: slategrey;
+    font-weight: 600;
+}
+
+.social-icon {
+    color: rgb(19, 93, 153);
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+.fa-youtube:hover {
+    color: red;
+}
+
+.fa-twitter:hover {
+    color: rgb(23, 175, 235);
+}
+
+.fa-instagram:hover {
+    color: chartreuse;
+}
+
+.fa-envelope:hover {
+    color: darkslateblue;
+}
+
+.card-img-top:hover {
+    transition: all 150ms ease-in-out;
+    position: absolute;
+    z-index: 2;
+    transform: scale(2);
+}
